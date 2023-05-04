@@ -1,0 +1,26 @@
+.header2{
+    background-color: blueviolet;
+    margin: auto 4rem;
+    position: relative;
+    top: -2rem;
+    text-align: left;
+    padding: 2rem 2rem;
+}
+
+.link-h{
+    color: white;
+    padding: 1rem;
+}
+
+@media screen and (max-width:600px){
+    .header2{
+        display: grid;
+        grid-template-columns: auto;
+        text-align: right;
+        padding: 0px 0px;
+    }
+
+    .link-h{
+        padding: 4px;
+    }
+}

@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: auto;
+}
+
+.navbar {
+    background-color: aqua;
+    height: 5rem;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.navbar h1{
+    margin-left: 10px;
+}
+
+.navlink{
+    display: flex;
+    justify-content: right;
+    column-gap: 1rem;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.link{
+    text-align: right;
+}
+
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 120%;
+    }
+
+    .navbar{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .navlink {
+        display: grid;
+        column-gap: 5px;
+    }
+
+    .link{
+        align-items: right;
+        text-align: right;
+    }
+}
